@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;}
+
+body{
+    background-image: url("../pictures/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.contenedorImgPrincipal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgPrincipal{
+    height: 100%;
+    margin-top: 4%;
+}
+
+.listImg{
+    justify-content: center;
+    margin-top: 50%;
+    height:22% ;
+}
+
+.tituloListIzquierda{
+    font-size: 4.5vh;
+    margin-bottom: 5%;
+    margin-top: 7%;
+    text-decoration: underline;
+}
+
+.nombresListIzquierda{
+    margin-left: 1.5%;
+    color: #fff;
+    font-size:2.1vh ;
+    text-align:left;
+    list-style: none;
+}
+
+.tituloListDerecha{
+    font-size: 4.5vh;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    margin-top: 7%;
+    text-decoration: underline;
+    
+}
+
+.nombresListDerecha{
+    color: #fff;
+    font-size:2.1vh ;
+    margin-left: 27%;
+    list-style: none;
+}
