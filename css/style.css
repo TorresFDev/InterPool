@@ -3,25 +3,80 @@
     padding: 0;
     scroll-behavior: smooth;}
 
-body{
-    background-image: url("../pictures/fondo1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+header{
+  height: 6vh;
 }
 
-
-.contenedorImgPrincipal{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    width: 100%;
+main{
+  background-image: url("../pictures/fondopag1.png");
+  height: 94vh;
 }
 
-.imgPrincipal{
-    height: 100%;
-    margin-top: 4%;
+/* botones del menu*/
+.botonNavBar{
+  margin-left: 62vw;
 }
+
+/*palabras dentro de los botones de menu*/
+.nav-link{
+  margin-left: 50px;
+}
+
+/* imagen logo*/
+.contenedorImgLogo{
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.imgLogo{
+  margin-top: 15%;
+}
+/*Botón*/
+.drop-button{
+    background-color: #ff7300;
+    color: #000000;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  /*Botón hover y focus*/
+  .drop-button:hover, drop-buttton:hover{
+    background-color: #ff7300;
+  }
+  
+  /*Posición del contenedor*/
+  .dropdown{
+    position: relative;
+    display: inline-block;
+   }
+  
+  /*submenu*/
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a{
+    color: #207878;
+    padding: 12px 16px;
+    display: block;
+  }
+  
+  .dropdown-content a:hover{
+    background-color: #f1f1f1
+  }
+  .show {
+    display: block;
+  }
+  
 
 .listImg{
     justify-content: center;
