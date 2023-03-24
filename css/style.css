@@ -1,15 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;}
+    }
 
-header{
-  height: 6vh;
-}
 
 main{
   background-image: url("../pictures/fondopag1.png");
-  height: 94vh;
+  height: 100vh;
 }
 
 /* botones del menu*/
@@ -22,7 +19,7 @@ main{
   margin-left: 50px;
 }
 
-/* imagen logo*/
+imagen logo
 .contenedorImgLogo{
   width: 100%;
   display: grid;
@@ -32,6 +29,8 @@ main{
 .imgLogo{
   margin-top: 15%;
 }
+
+
 /*Botón*/
 .drop-button{
     background-color: #ff7300;
@@ -78,50 +77,59 @@ main{
   }
   
 
-.listImg{
-    justify-content: center;
-    margin-top: 50%;
-    height:22% ;
+.mainGeneral{
+background-image: url("/pictures/mesasdepool1.jpg");
+background-size: cover;
+
+}
+
+.listJugadores{
+  display: flex;
+  justify-content: center
+}
+
+.imgPrueba{
+  height: 500px;
+  margin-top: 80px;
+;}
+
+.tituloListDerecha{
+  color: red;
+  font-size: 3vh;
+  margin-left: 100px;
+  margin-top: 40px;
+  list-style: none;
+  padding-bottom: 10px;
+  text-decoration: underline;
+
 }
 
 .tituloListIzquierda{
-    font-size: 4.5vh;
-    margin-bottom: 5%;
-    margin-top: 7%;
-    text-decoration: underline;
+  color: red;
+  font-size: 3vh;
+  margin-left: 148px;
+  margin-top: 80px;
+  padding-bottom: 10px;
+  list-style: none;
+  text-decoration: underline;
+
 }
 
 .nombresListIzquierda{
-    margin-left: 1.5%;
-    color: #ffffff;
-    font-size:2.1vh ;
-    text-align:left;
-    list-style: none;
-}
-
-.tituloListDerecha{
-    font-size: 4.5vh;
-    margin-left: 25%;
-    margin-bottom: 5%;
-    margin-top: 7%;
-    text-decoration: underline;
-    
+  color: white;
+  font-size: 2.2vh;
+  list-style: none;
+  margin-left: 150px;
 }
 
 .nombresListDerecha{
-    color: #ffffff;
-    font-size:2.1vh ;
-    margin-left: 27%;
-    list-style: none;
-}
-
-
-.mainGeneral{
-background-image: url("/pictures/mesasdepool1.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-
+  color: white;
+  font-size: 2.2vh;
+  list-style: none;
+  margin-left: 100px;
 
 }
 
-
+.contenedorIzq{
+  margin-bottom: auto;
+}
